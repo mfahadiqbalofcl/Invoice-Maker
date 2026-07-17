@@ -1,27 +1,27 @@
 # Invoice Maker
 
-A clean, client-ready invoice generator built with vanilla HTML, CSS, and JavaScript. Add line items, edit any field inline, and watch totals, balance due, and the amount due recalculate automatically. Everything runs in the browser — no backend, no dependencies, no data leaves the page.
+An invoice generator built with vanilla HTML, CSS, and JavaScript. Add line items, edit any field inline, and totals, balance due, and the amount due recalculate automatically. Everything runs in the browser, with no backend, no dependencies, and no data leaving the page.
 
 **Live demo:** https://mfahadiqbalofcl.github.io/Invoice-Maker/
 
 ## Features
 
-- Fully editable invoice — sender, recipient, dates, and notes are all `contenteditable`
+- Editable invoice: sender, recipient, dates, and notes are all `contenteditable`
 - Add or remove line items on the fly (`+` / `-` controls)
 - Automatic calculation of line totals, subtotal, amount paid, and balance due
 - Adjust numeric values with arrow keys or the scroll wheel
 - Custom currency prefix (defaults to `$`) applied across the invoice
 - Drag-and-drop or click-to-upload your own logo
 - Print / export to PDF straight from the browser (Ctrl/Cmd + P)
-- 100% client-side — works offline, nothing is sent to a server
+- 100% client-side: works offline, nothing is sent to a server
 
-## Tech Stack
+## Tech stack
 
 - HTML5 (semantic, `contenteditable` fields)
 - CSS3 (minified stylesheet)
 - Vanilla JavaScript (no frameworks or libraries)
 
-## Getting Started
+## Getting started
 
 No build step or install is required.
 
@@ -37,7 +37,7 @@ Or simply visit the [live demo](https://mfahadiqbalofcl.github.io/Invoice-Maker/
 
 ## Usage
 
-1. Click any field to edit it — your details, the recipient, invoice number, and date.
+1. Click any field to edit it: your details, the recipient, invoice number, and date.
 2. Use `+` to add line items and `-` to remove them. Rates and quantities multiply automatically.
 3. Click the logo box to upload (or drag and drop) your own logo.
 4. Enter the amount paid to see the balance due update.
@@ -54,4 +54,4 @@ Released under the [MIT License](./LICENSE).
 
 ---
 
-Built by [M Fahad Iqbal](https://github.com/mfahadiqbalofcl) — Web Designer & Developer.
+Built by [M Fahad Iqbal](https://github.com/mfahadiqbalofcl), Web Designer and Developer.
